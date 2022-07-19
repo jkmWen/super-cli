@@ -1,0 +1,11 @@
+{
+  "name": "super-cli",
+  "version": "1.0.0",
+  "description": "A usefull cli",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "QW",
+  "license": "ISC"
+}
