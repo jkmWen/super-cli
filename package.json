@@ -2,10 +2,27 @@
   "name": "super-cli",
   "version": "1.0.0",
   "description": "A usefull cli",
-  "main": "index.js",
+  "type": "commonjs",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "QW",
-  "license": "ISC"
+  "license": "ISC",
+  "bin": {
+    "supercli": "./bin/supercli.js"
+  },
+  "devDependencies": {
+    "@babel/eslint-parser": "^7.18.9",
+    "eslint": "^8.20.0",
+    "eslint-config-prettier": "^8.5.0",
+    "prettier": "^2.7.1"
+  },
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "commander": "^9.4.0",
+    "fs-extra": "^10.1.0",
+    "inquirer": "^8.2.0",
+    "minimist": "^1.2.6",
+    "validate-npm-package-name": "^3.0.0"
+  }
 }
